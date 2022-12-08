@@ -1,0 +1,28 @@
+
+header{
+    background-color: $primary_color;
+    color: black;
+    grid-column-start:1;
+    grid-column-end: 4;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    .menu li a{
+        text-decoration: none;
+        color: $secondary_color;
+        padding: 20px;
+        display: block;
+    }
+    
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background: $secondary_color;
+    }
+}
+
+

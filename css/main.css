@@ -1,0 +1,14 @@
+footer {
+  background-color: #dff5dc;
+  color: black;
+  grid-column: span 2;
+  height: 200px;
+  padding: 10px; }
+  footer .redes {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  footer .redes li {
+    display: inline-block; }
+  footer .redes a {
+    padding: 10px; }

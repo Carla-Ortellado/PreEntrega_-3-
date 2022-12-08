@@ -1,0 +1,22 @@
+footer {
+    background-color: rgb(223, 245, 220);
+    color:black;
+    grid-column: span 2;
+    height: 200px;
+    padding: 10px;
+    .redes{
+        text-align:left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }   
+    .redes li{
+        display: inline-block;   
+    }   
+    .redes a{
+        padding: 10px;
+    
+    }
+}
+
+
